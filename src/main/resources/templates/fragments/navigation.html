@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" th:fragment="navigation">
+    <a class="navbar-brand" >>>></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li th:class="${activePage == 'index'} ? 'nav-item active' : 'nav-item'">
+                <a class="nav-link" th:href="@{/index}">Начало</a>
+            </li>
+            <li th:class="${activePage == 'contacts'} ? 'nav-item active' : 'nav-item'">
+                <a class="nav-link" th:href="@{/contacts}">Контакти</a>
+            </li>
+            <li  th:class="${activePage == 'products'} ? 'nav-item active' : 'nav-item'">
+                <a class="nav-link" th:href="@{/products}">Телескопи</a>
+
+            </li>
+            <li  th:class="${activePage == 'login'} ? 'nav-item active' : 'nav-item'">
+                <a class="nav-link" th:href="@{/logout}">Изход</a>
+            </li>
+
+            <form class="text-white filters nav-link center" style="display:none">
+
+                <label>Филтри >>> категория:</label>
+                &nbsp;
+                <input type="radio" id="beginners" name="category" value="начинаещи">
+                <label for="beginners">начинаещи</label>
+                &nbsp;
+                <input type="radio" id="advanced" name="category" value="напреднали">
+                <label for="advanced">напреднали</label>
+                &nbsp;
+                <input type="radio" id="all" name="category" value="all">
+                <label for="all">всички</label>
+                &nbsp;
+                <label>или марка:</label>
+                &nbsp;
+                <select name="brands" id="brand-select">
+                    <option value="all" hidden>марка</option>
+                    <option value="Levenhuk">Levenhuk</option>
+                    <option value="Celestron">Celestron</option>
+                    <option value="Bresser">Bresser</option>
+                    <option value="Meade">Meade</option>
+                    <option value="all">Всички</option>
+                </select>
+            </form>
+        </ul>
+
+    </div>
+</nav>
+
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+2020-12-03 08:46:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE ORDER[*] (ID BIGINT NOT NULL, NAME VARCHAR(255), PRIMARY KEY (ID))"; expected "identifier"; SQL statement:
+create table order (id bigint not null, name varchar(255), primary key (id)) [42001-200]
+2020-12-03 08:46:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "ALTER TABLE ITEM ADD CONSTRAINT FK7UHGL4UKXMR9CIFJ0E3CERSF2 FOREIGN KEY (ORDER_ID) REFERENCES ORDER[*]"; expected "identifier"; SQL statement:
+alter table item add constraint FK7uhgl4ukxmr9cifj0e3cersf2 foreign key (order_id) references order [42001-200]
+2020-12-03 08:48:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE ORDER[*] (ID BIGINT NOT NULL, NAME VARCHAR(255), PRIMARY KEY (ID))"; expected "identifier"; SQL statement:
+create table order (id bigint not null, name varchar(255), primary key (id)) [42001-200]
+2020-12-03 08:48:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "ALTER TABLE ITEM ADD CONSTRAINT FK7UHGL4UKXMR9CIFJ0E3CERSF2 FOREIGN KEY (ORDER_ID) REFERENCES ORDER[*]"; expected "identifier"; SQL statement:
+alter table item add constraint FK7uhgl4ukxmr9cifj0e3cersf2 foreign key (order_id) references order [42001-200]
+2020-12-03 08:55:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE ORDER[*] (ID BIGINT NOT NULL, NAME VARCHAR(255), PRIMARY KEY (ID))"; expected "identifier"; SQL statement:
+create table order (id bigint not null, name varchar(255), primary key (id)) [42001-200]
+2020-12-03 08:55:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "ALTER TABLE ITEM ADD CONSTRAINT FK7UHGL4UKXMR9CIFJ0E3CERSF2 FOREIGN KEY (ORDER_ID) REFERENCES ORDER[*]"; expected "identifier"; SQL statement:
+alter table item add constraint FK7uhgl4ukxmr9cifj0e3cersf2 foreign key (order_id) references order [42001-200]
+2020-12-03 08:55:58 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM ITEM USER USER[*]"; SQL statement:
+SELECT * FROM ITEM USER USER [42000-200]
+2020-12-03 08:58:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE ORDER[*] (ID BIGINT NOT NULL, NAME VARCHAR(255), PRIMARY KEY (ID))"; expected "identifier"; SQL statement:
+create table order (id bigint not null, name varchar(255), primary key (id)) [42001-200]
+2020-12-03 08:58:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "ALTER TABLE ITEM ADD CONSTRAINT FK7UHGL4UKXMR9CIFJ0E3CERSF2 FOREIGN KEY (ORDER_ID) REFERENCES ORDER[*]"; expected "identifier"; SQL statement:
+alter table item add constraint FK7uhgl4ukxmr9cifj0e3cersf2 foreign key (order_id) references order [42001-200]
+2020-12-03 09:00:49 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DROP TABLE IF IT[*] EXISTS ITEM"; expected "EXISTS"; SQL statement:
+DROP TABLE IF IT EXISTS ITEM [42001-200]
+2020-12-03 09:00:54 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DROP TABLE IF IT[*] EXISTS ITEM"; expected "EXISTS"; SQL statement:
+DROP TABLE IF IT EXISTS ITEM [42001-200]
+2020-12-03 09:01:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE ORDER[*] (ID BIGINT NOT NULL, NAME VARCHAR(255), PRIMARY KEY (ID))"; expected "identifier"; SQL statement:
+create table order (id bigint not null, name varchar(255), primary key (id)) [42001-200]
+2020-12-03 09:01:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "ALTER TABLE ITEM ADD CONSTRAINT FK7UHGL4UKXMR9CIFJ0E3CERSF2 FOREIGN KEY (ORDER_ID) REFERENCES ORDER[*]"; expected "identifier"; SQL statement:
+alter table item add constraint FK7uhgl4ukxmr9cifj0e3cersf2 foreign key (order_id) references order [42001-200]
+2020-12-03 09:30:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-12-03 09:30:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        NAME VARCHAR(255),
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        name varchar(255),
+        primary key (id)
+    ) [42001-200]
+2020-12-03 09:30:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "
+    ALTER TABLE ITEM 
+       ADD CONSTRAINT FK7UHGL4UKXMR9CIFJ0E3CERSF2 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES ORDER[*]"; expected "identifier"; SQL statement:
+
+    alter table item 
+       add constraint FK7uhgl4ukxmr9cifj0e3cersf2 
+       foreign key (order_id) 
+       references order [42001-200]
+2020-12-03 09:36:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-12-03 09:36:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        NAME VARCHAR(255),
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        name varchar(255),
+        primary key (id)
+    ) [42001-200]
+2020-12-03 09:36:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "
+    ALTER TABLE ITEM 
+       ADD CONSTRAINT FK7UHGL4UKXMR9CIFJ0E3CERSF2 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES ORDER[*]"; expected "identifier"; SQL statement:
+
+    alter table item 
+       add constraint FK7uhgl4ukxmr9cifj0e3cersf2 
+       foreign key (order_id) 
+       references order [42001-200]
+2020-12-03 09:59:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-12-03 09:59:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        NAME VARCHAR(255),
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        name varchar(255),
+        primary key (id)
+    ) [42001-200]
+2020-12-03 09:59:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "
+    ALTER TABLE ITEM 
+       ADD CONSTRAINT FK7UHGL4UKXMR9CIFJ0E3CERSF2 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES ORDER[*]"; expected "identifier"; SQL statement:
+
+    alter table item 
+       add constraint FK7uhgl4ukxmr9cifj0e3cersf2 
+       foreign key (order_id) 
+       references order [42001-200]
+2020-12-03 09:59:43 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE TABLE[*] IF EXISTS ITEM"; expected "identifier"; SQL statement:
+delete table if exists ITEM [42001-200]
+2020-12-03 10:00:05 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE TABLE[*] IF EXISTS ITEM"; expected "identifier"; SQL statement:
+DELETE TABLE IF EXISTS ITEM [42001-200]

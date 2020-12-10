@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" th:fragment="admin">
+    <a class="navbar-brand" >>>></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li th:class="${activePage == 'itemslist'} ? 'nav-item active' : 'nav-item'">
+                <a class="nav-link" th:href="@{/itemslist}">Продукти</a>
+            </li>
+            <li th:class="${activePage == 'orders'} ? 'nav-item active' : 'nav-item'">
+                <a class="nav-link" th:href="@{/orders}">Поръчки</a>
+            </li>
+            <li  th:class="${activePage == 'users'} ? 'nav-item active' : 'nav-item'">
+                <a class="nav-link" th:href="@{/users}">Потребители</a>
+
+            </li>
+            <li  th:class="${activePage == 'login'} ? 'nav-item active' : 'nav-item'">
+                <a class="nav-link" th:href="@{/logout}">Изход</a>
+
+            </li>
+        </ul>
+
+    </div>
+</nav>
+
+
+
+</body>
+</html>
